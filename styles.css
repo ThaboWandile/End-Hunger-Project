@@ -1,0 +1,394 @@
+/* Style for the navigation container */
+nav {
+    background-color: #333; /* Dark background */
+    padding: 10px 0; /* Padding around the navigation */
+    text-align: center; /* Center-align the navigation links */
+}
+
+/* Style for the unordered list */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the list items */
+nav ul li {
+    display: inline; /* Make the list items inline to display horizontally */
+    margin: 0 15px; /* Space between the menu items */
+}
+
+/* Style for the links */
+nav ul li a {
+    text-decoration: none; /* Remove the underline from links */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 10px 15px; /* Padding around the text */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the links */
+nav ul li a:hover {
+    background-color: #555; /* Change background color on hover */
+    color: #ffcc00; /* Change text color on hover */
+    border-radius: 10%;
+}
+
+/* Active or current link styling (optional) */
+nav ul li a.active {
+    background-color: #ffcc00; /* Highlight active page link */
+    color: #333; /* Text color for active link */
+}
+
+/* Style for the main heading */
+h1 {
+    text-align: center; /* Center-aligns the heading */
+    font-size: 36px; /* Large font size */
+    color: #333; /* Dark color for the heading */
+    font-family: 'Arial', sans-serif; /* Font family for the heading */
+    margin-top: 20px; /* Adds space above the heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Style for the subheading */
+h3 {
+    text-align: center; /* Center-aligns the subheading */
+    font-size: 24px; /* Medium font size */
+    color: #555; /* Lighter color for the subheading */
+    font-family: 'Arial', sans-serif; /* Matching font for consistency */
+    margin-bottom: 30px; /* Adds space below the subheading */
+}
+
+/*  Add styling for the container */
+.container {
+    text-align: center; /* Centers the content inside the container */
+    padding: 20px; /* Padding
+max-width: 800px; /* Optional: Limit the width of the content area */
+margin: 0 auto; /* Centers the container on the page */
+}
+/* Style for the rounded image */
+img {
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    width: auto; /* Keep aspect ratio */
+    border-radius: 15px; /* Adjust value to control the roundness */
+}
+/* Style for the main heading (h1) */
+h1 {
+    font-size: 36px; /* Larger font size for emphasis */
+    color: #333; /* Darker color for readability */
+    text-align: center; /* Center the heading */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px; /* Space above the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    letter-spacing: 1px; /* Slight letter spacing for style */
+}
+
+/* Style for the paragraph (p) */
+p {
+    font-size: 18px; /* Readable font size */
+    line-height: 1.6; /* Spacing between lines for better readability */
+    color: #555; /* Lighter text color for a softer look */
+    text-align: justify; /* Justify the text for clean alignment on both sides */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 800px; /* Limit the paragraph width for better readability */
+    margin: 0 auto; /* Center the paragraph within the page */
+    padding: 10px; /* Add some padding around the paragraph */
+}
+
+/* Optional: Add a container to center the content */
+.container {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px; /* Limit the width for consistency */
+}
+/* Style for the footer */
+footer {
+    background-color: #333; /* Dark background for contrast */
+    color: #fff; /* White text for readability */
+    text-align: center; /* Center-align the text */
+    padding: 15px 0; /* Padding around the text */
+    font-size: 14px; /* Slightly smaller font size for footer */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative; /* Optional: Position the footer based on your layout */
+    bottom: 0; /* Keeps it at the bottom if needed */
+    width: 100%; /* Full width */
+    border-top: 2px solid #ffcc00; /* Optional: A top border to separate it from the content */
+}
+
+/* Optional hover effect for any links in the footer */
+footer a {
+    color: #ffcc00; /* Footer links in a contrasting color */
+    text-decoration: none; /* Remove the underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline the links when hovered */
+}
+/* Style for the form container */
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto; /* Centers the form */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for elevation */
+}
+
+/* Style for the form elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+    display: block; /* Ensures label is on its own line */
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Make the input fields full-width */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Style for the input focus effect */
+input:focus {
+    border-color: #ffcc00; /* Highlight color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Style for the submit button */
+button {
+    padding: 12px;
+    background-color: #ffcc00;
+    color: #333;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+/* Responsive styling */
+@media (max-width: 960px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    label, input, button {
+        font-size: 14px;
+    }
+}
+
+
+/* Newsroom Container */
+.newsroom-container {
+    max-width: 800px; /* Limit max width for readability */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: #fff; /* White background for content area */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headings */
+h2 {
+    font-size: 28px; /* Larger font size for main heading */
+    color: #ffcc00; /* Color for the main heading */
+    text-align: center; /* Center align main heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+h5 {
+    font-size: 20px; /* Slightly smaller for subheadings */
+    color: #444; /* Darker grey for subheadings */
+    margin-top: 20px; /* Space above each subheading */
+    margin-bottom: 10px; /* Space below each subheading */
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px; /* Space below paragraphs */
+    font-size: 16px; /* Readable font size for body text */
+}
+
+/* Responsive Design */
+@media (max-width: 960px) {
+    .newsroom-container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    h2 {
+        font-size: 24px; /* Reduce heading size for mobile */
+    }
+
+    h5 {
+        font-size: 18px; /* Reduce subheading size for mobile */
+    }
+
+    p {
+        font-size: 14px; /* Reduce paragraph size for mobile */
+    }
+}
+/* General Styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    line-height: 1.6; /* Improve readability */
+    color: #333; /* Dark grey text color */
+    background-color: #f4f4f4; /* Light background */
+}
+
+/* About Us Container */
+.about-us-container {
+    max-width: 800px; /* Limit max width for readability */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: #fff; /* White background for content area */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headings */
+h1 {
+    font-size: 32px; /* Larger font size for main heading */
+    color: #ffcc00; /* Color for the main heading */
+    text-align: center; /* Center align main heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+h2 {
+    font-size: 24px; /* Medium size for subheadings */
+    color: #444; /* Darker grey for subheadings */
+    margin-top: 20px; /* Space above each subheading */
+    margin-bottom: 15px; /* Space below each subheading */
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px; /* Space below paragraphs */
+    font-size: 16px; /* Readable font size for body text */
+}
+
+/* Responsive Design */
+@media (max-width: 960px) {
+    .about-us-container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 28px; /* Reduce heading size for mobile */
+    }
+
+    h2 {
+        font-size: 20px; /* Reduce subheading size for mobile */
+    }
+
+    p {
+        font-size: 14px; /* Reduce paragraph size for mobile */
+    }
+}
+/* Food Distribution Container */
+.food-distribution-container {
+    max-width: 800px; /* Limit max width for readability */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: #fff; /* White background for content area */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headings */
+h3 {
+    font-size: 24px; /* Medium size for subheadings */
+    color: #ffcc00; /* Color for the subheadings */
+    margin-top: 20px; /* Space above each subheading */
+    margin-bottom: 10px; /* Space below each subheading */
+}
+
+h4 {
+    font-size: 20px; /* Slightly larger font size for introductory paragraph */
+    color: #444; /* Darker grey for the introductory paragraph */
+    margin-bottom: 15px; /* Space below introductory paragraph */
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px; /* Space below paragraphs */
+    font-size: 16px; /* Readable font size for body text */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Responsive Design */
+@media (max-width: 960px) {
+    .food-distribution-container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    h3 {
+        font-size: 20px; /* Reduce subheading size for mobile */
+    }
+
+    h4 {
+        font-size: 18px; /* Reduce introductory paragraph size for mobile */
+    }
+
+    p {
+        font-size: 14px; /* Reduce paragraph size for mobile */
+    }
+}
+/* Welcome Container */
+.welcome-container {
+    max-width: 800px; /* Limit max width for readability */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headings */
+h1 {
+    font-size: 28px; /* Large size for main heading */
+    color: #333; /* Dark grey color */
+    margin-bottom: 15px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px; /* Readable font size for body text */
+    line-height: 1.6; /* Improve readability */
+    color: #555; /* Medium grey color for text */
+}
+
+/* Responsive Design */
+@media (max-width: 960px) {
+    .welcome-container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Reduce heading size for mobile */
+    }
+
+    p {
+        font-size: 14px; /* Reduce paragraph size for mobile */
+    }
+}
+
