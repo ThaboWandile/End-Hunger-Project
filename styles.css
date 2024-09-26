@@ -64,7 +64,7 @@ h3 {
 .container {
     text-align: center; /* Centers the content inside the container */
     padding: 20px; /* Padding
-max-width: 800px; /* Optional: Limit the width of the content area */
+max-width: 800px; /* Limit the width of the content area */
 margin: 0 auto; /* Centers the container on the page */
 }
 /* Style for the rounded image */
@@ -75,7 +75,7 @@ img {
     width: auto; /* Keep aspect ratio */
     border-radius: 15px; /* Adjust value to control the roundness */
 }
-/* Style for the main heading (h1) */
+/* Style for the main heading  */
 h1 {
     font-size: 36px; /* Larger font size for emphasis */
     color: #333; /* Darker color for readability */
@@ -98,7 +98,7 @@ p {
     padding: 10px; /* Add some padding around the paragraph */
 }
 
-/* Optional: Add a container to center the content */
+/*  a container to center the content */
 .container {
     text-align: center;
     padding: 20px;
@@ -119,11 +119,7 @@ footer {
     border-top: 2px solid #ffcc00; /* Optional: A top border to separate it from the content */
 }
 
-/* Optional hover effect for any links in the footer */
-footer a {
-    color: #ffcc00; /* Footer links in a contrasting color */
-    text-decoration: none; /* Remove the underline from links */
-}
+
 
 footer a:hover {
     text-decoration: underline; /* Underline the links when hovered */
@@ -246,10 +242,10 @@ p {
         font-size: 14px; /* Reduce paragraph size for mobile */
     }
 }
-/* General Styles */
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif; 
-    line-height: 1.6; /* Improve readability */
+    line-height: 1.6; 
     color: #333; /* Dark grey text color */
     background-color: #f4f4f4; /* Light background */
 }
@@ -337,19 +333,19 @@ p {
 /* Responsive Design */
 @media (max-width: 960px) {
     .food-distribution-container {
-        padding: 15px; /* Adjust padding for smaller screens */
+        padding: 15px; 
     }
 
     h3 {
-        font-size: 20px; /* Reduce subheading size for mobile */
+        font-size: 20px; 
     }
 
     h4 {
-        font-size: 18px; /* Reduce introductory paragraph size for mobile */
+        font-size: 18px; 
     }
 
     p {
-        font-size: 14px; /* Reduce paragraph size for mobile */
+        font-size: 14px; 
     }
 }
 /* Welcome Container */
