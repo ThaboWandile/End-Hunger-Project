@@ -29,7 +29,10 @@
     <nav>
       <br>
       <div class="container">
-        <img src="_images/EndHungerProjectLogo.jpg" alt="End Hunger Project Logo" height="150">
+        <img src="_images/EndHungerProjectLogo.jpg"    onclick="showLighttbox('_images/EndHungerProjectLogo.jpg')"  alt="End Hunger Project Logo" height="150"> 
+        <div id="lightbox" onclick="closeLightbox()">
+          <img id="lightboxImage" src="" alt="Lightbox Preview">
+       </div>
         <h1>END HUNGER PROJECT</h1>
         <h3>Empowering Communities, Eradicating Hunger</h3>
       </div>
@@ -46,9 +49,26 @@
         </p>
       </div>
 
-      <img src="_images/Feeding The Hungry.jpg" alt="" width="" height="150"> <br>
+      <img src="_images/Feeding The Hungry.jpg"   onclick="showLightbox('_images/Feeding The Hungry.jpg')"      alt="" width="" height="150"> <br>
+      <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightboxImage" src="" alt="Lightbox Preview">
+     </div>
       <footer>
         &copy; 2024 - End Hunger Project. All Rights Reserved
+        <footer id="footer">
+          <p>Follow Us:</p>
+          <a href="#"><img src="_images/facebook-icon.png" alt="Facebook"></a>
+          <a href="#"><img src="_images/twitter-icon.png" alt="Twitter"></a>
+          <a href="#"><img src="_images/instagram-icon.jpg" alt="Instagram"></a>
+          
+      </footer>
+
+
+
+
+
+        
+        <p>Today's date is: <span id="dateStamp"></span></p>
       </footer>
 
 </body>

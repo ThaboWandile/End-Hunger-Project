@@ -19,7 +19,10 @@
         </ul>
     <nav>
     <br>
-    <img src="_images/EndHungerProjectLogo.jpg" alt="" width="" height="150">
+    <img src="_images/EndHungerProjectLogo.jpg" onclick="showLighttbox('_images/EndHungerProjectLogo.jpg')" alt="" width="" height="150">
+    <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightboxImage" src="" alt="Lightbox Preview">
+     </div>
     <br>
     <h1>END HUNGER PROJECT</h1>
     <h1>CONTACT US</h1>
@@ -29,24 +32,31 @@
 
         <tr>
             <td>
-                <div> 
-                    <form name="myForm" id="myForm" method="post" enctypes="text?plain">
-                        <label for="firstname"> FIRST NAME</label>
-                        <input type="text" name="firstname" id="firstname"> <br>
-                        <label for="lastname"> LAST NAME</label>
-                        <input type="text" name="lastname" id="firstname"> <br>
-                        <label for="Email">EMAIL</label>
-                        <input type="text" name="Email" id="EMAIL"><br>
-                        <label for="Email">PHONE NO.</label>
-                        <input type="text" name="phone" id="phone"><br>
-                        <button type="button"> SUBMIT </button>
-                    </form>   
-                </div>
-               
+                <form action="tmagagula83@gmail.com" method="post" onsubmit="return validateForm()">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required onfocus="clearField(this)"><br><br>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required onfocus="clearField(this)"><br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required onfocus="clearField(this)"><br><br>
+
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required onfocus="clearField(this)"><br><br>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" id="message" name="message" rows="4" required onfocus="clearField(this)"></textarea><br><br>
+                    <input type="submit" value="Submit">
+
+
+
+                </form>
             </td>
         </tr>
 
     </table>
+
 
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25428.984777615267!2d31.019360157474758!3d-29.802631561298313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef707aa871594bd%3A0x8f02f03f86d820cd!2sThe%20IIE&#39;s%20Varsity%20College%20-%20Durban%20North!5e0!3m2!1sen!2sza!4v1723557615362!5m2!1sen!2sza"
@@ -54,6 +64,7 @@
         referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
         <footer>
             &copy; 2024 - End Hunger Project. All Rights Reserved
+            <p>Today's date is: <span id="dateStamp"></span></p>
           </footer>
 </body>
 

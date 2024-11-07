@@ -19,7 +19,10 @@
         </ul>
     <nav> 
         <br>
-    <img src="_images/EndHungerProjectLogo.jpg" alt="" width="" height="150"> <br>
+    <img src="_images/EndHungerProjectLogo.jpg" onclick="showLighttbox('_images/EndHungerProjectLogo.jpg')" alt="" width="" height="150"> <br>
+    <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightboxImage" src="" alt="Lightbox Preview">
+     </div>
     <div class="about-us-container">
         <h1>ABOUT US</h1>
         <h2>OUR GOALS</h2>
@@ -52,7 +55,13 @@
     
         <br>
         <img src="_images/Two Kids.jpg" alt="" width="" height="200"> 
+        <div id="lightbox" onclick="closeLightbox()">
+            <img id="lightboxImage" src="" alt="Lightbox Preview">
+         </div>
         <img src="_images/Kids eating.jpg" alt="" width="" height="200">
+        <div id="lightbox" onclick="closeLightbox()">
+            <img id="lightboxImage" src="" alt="Lightbox Preview">
+         </div>
 
 
 
@@ -60,6 +69,7 @@
 <br>
 <footer>
     &copy; 2024 - End Hunger Project. All Rights Reserved
+    <p>Today's date is: <span id="dateStamp"></span></p>
   </footer>
 </body>
 

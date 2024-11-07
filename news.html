@@ -19,7 +19,10 @@
         </ul>
     <nav>
     <br>
-    <img src="_images/EndHungerProjectLogo.jpg" alt="" width="" height="150">
+    <img src="_images/EndHungerProjectLogo.jpg"  onclick="showLighttbox('_images/EndHungerProjectLogo.jpg')"    alt="" width="" height="150">
+    <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightboxImage" src="" alt="Lightbox Preview">
+     </div>
     <div class="newsroom-container">
         <h2>15 AUGUST 2024 | END HUNGER PROJECT NEWSROOM</h2> 
         <h5>Empowering Communities, Ending Hunger Together</h5>
@@ -49,6 +52,9 @@
     </div>
      <br>
         <img src="_images/Volunteering.jpg" alt="" height="150"> <br>
+        <div id="lightbox" onclick="closeLightbox()">
+            <img id="lightboxImage" src="" alt="Lightbox Preview">
+         </div>
 
 
 
@@ -57,6 +63,7 @@
 
         <footer>
             &copy; 2024 - End Hunger Project. All Rights Reserved
+            <p>Today's date is: <span id="dateStamp"></span></p>
           </footer>
 </body>
 
